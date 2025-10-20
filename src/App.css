@@ -13,6 +13,12 @@ body {
   font-weight: 400;
 }
 
+.p-text-color {
+  color: #4b5563;
+  font-size: 18px;
+  width: 95%;
+}
+
 .primary {
   color: #9dff0a;
 }
@@ -23,4 +29,121 @@ body {
   color: #000;
   line-height: 1em;
   padding: 90px 0px 30px;
+}
+
+.featured .brand {
+  display: flex;
+}
+.featured .beauty {
+  display: flex;
+  margin-top: 150px;
+}
+
+.brand .left-side {
+  margin: 60px 0;
+}
+
+.brand-img img {
+  width: 570px;
+  height: 570px;
+  border-radius: 30px;
+}
+
+.brand-button {
+  padding: 10px 10px;
+  background-color: #9dff0a;
+  width: 150px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.brand-store {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.brand-title {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.brand-percentage {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.brand-percentage .conversion {
+  font-size: 24px;
+  color: #9dff0a;
+  font-weight: 700;
+  text-align: center;
+}
+
+.brand-percentage p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #4b5563;
+}
+
+.tech-skills {
+  display: flex;
+  gap: 5px;
+}
+
+.tech-skills-btn {
+  background-color: #f3f4f6;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.tech-skills-btn h2 {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.case-study-btn {
+  margin-top: 25px;
+}
+
+.case-study-btn button {
+  background-color: #000;
+  color: white;
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.case-study-btn button:hover {
+  color: #4b5563;
+
+}
+
+.featured .beauty {
+  display: flex;
+  margin-top: 150px;
+  gap: 50px;
+}
+
+.beauty-img img {
+  width: 570px;
+  height: 570px;
+  border-radius: 30px;
+}
+
+.beauty .right-side {
+  margin: 60px 0;
 }
