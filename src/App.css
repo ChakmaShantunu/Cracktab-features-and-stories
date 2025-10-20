@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1160px;
+  margin: 0 auto;
+  font-family: "DM Sans", Satoshi;
+  font-weight: 400;
+}
+
+.primary {
+  color: #9dff0a;
+}
+
+.featured-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1em;
+  padding: 90px 0px 30px;
+}
