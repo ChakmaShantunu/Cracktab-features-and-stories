@@ -103,6 +103,10 @@
   width: 100%;
 }
 
+.card-content .details-btn:hover {
+    color: #4b5563;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 100%;
