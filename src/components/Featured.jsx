@@ -37,7 +37,7 @@ const Featured = () => {
                         </div>
                         <div>
                             <div className='conversion'>
-                                <span>+</span>
+                                {/* <span>+</span> */}
                                 <span>96/100</span>
                             </div>
                             <p>Page Speed Score</p>
@@ -102,7 +102,6 @@ const Featured = () => {
                         </div>
                         <div>
                             <div className='conversion'>
-                                <span>+</span>
                                 <span>98/100</span>
                             </div>
                             <p>Page Speed Score</p>

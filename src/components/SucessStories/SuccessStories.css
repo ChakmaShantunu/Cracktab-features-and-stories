@@ -1,4 +1,174 @@
-
-.moral h2 {
+.moral {
+  background-color: #f9fafb;
+  width: 100%;
+}
+.moral-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.moral-section .moral-title {
   font-size: 60px;
+  font-weight: 700;
+  padding: 90px 0px 30px;
+}
+
+.moral-section .moral-title span {
+  color: #9dff0a;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0, auto;
+}
+
+.card-container {
+  border: 2px solid #e5e7eb;
+  border-radius: 30px;
+  width: 378px;
+  height: 603px;
+  overflow: hidden;
+  position: relative;
+}
+
+.brand-label {
+  padding: 3px 5px;
+  background-color: #9dff0a;
+  width: 105px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.product-display img {
+  width: 374px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  margin: 0 20px;
+}
+
+.card-content .card-title {
+  font-size: 24px;
+  font-weight: 700px;
+  margin: 20px 0;
+}
+
+.card-content .card-description {
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.moral-percentage {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.moral-percentage .moral-conversion {
+  font-size: 18px;
+  color: #9dff0a;
+  font-weight: 700;
+  text-align: center;
+}
+
+.moral-percentage p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #4b5563;
+}
+
+.card-content .details-btn {
+  background-color: #000;
+  color: white;
+  padding: 15px 50px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 1024px) {
+  .moral {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .moral-section .moral-title {
+    font-size: 48px;
+  }
+
+  .product-display img {
+    width: 100%;
+  }
+
+  .product-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin: 0 auto;
+  }
+
+  .card-container {
+    width: auto;
+  }
+
+  .card-content .details-btn {
+    padding: 12px 0;
+    font-size: 13px;
+    margin: 10px 0;
+  }
+}
+
+/* Small devices (mobile) */
+@media (max-width: 768px) {
+  .moral {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .moral-section .moral-title {
+    font-size: 44px;
+    padding: 60px 0 20px;
+  }
+
+  .product-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    margin: 0 auto;
+  }
+
+  .product-display img {
+    width: 100%;
+  }
+
+  .card-content {
+    margin: 0 15px 20px;
+  }
+
+  .card-content .details-btn {
+    padding: 12px 0;
+    font-size: 13px;
+    margin: 10px 0;
+  }
 }
